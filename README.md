@@ -71,3 +71,23 @@ export default defineConfig([
   },
 ])
 ```
+# To-Do Planner App
+
+A React + TypeScript To-Do application builder. 
+
+## Features
+- **Add/Edit/Delete** tasks.
+- **Accordion view** for Pending, In Progress, and Completed states.
+- **Search** functionality to find tasks quickly.
+- **Local Storage** persistence (tasks stay after refresh).
+- **Responsive Design** based on Figma.
+
+## How to Run
+1. Clone the repo: `git clone "your-repo-url"`
+2. Install dependencies: `npm install`
+3. Start development server: `npm run dev`
+
+## Design Decisions
+- Used **TypeScript** for type safety and to prevent common bugs.
+- Implemented a **Modular Component Structure** for better maintainability.
+- Used **Local Storage** to ensure user data isn't lost on page reloads.
